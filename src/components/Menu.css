@@ -1,0 +1,85 @@
+.App-logo {
+  /*height: 40vmin;*/
+  height: 4rem;
+  pointer-events: none;
+  display: flex;
+  align-self: center;
+}
+
+.App-header {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  justify-content:space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 15px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Menu-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .Menu-item {
+    color: #0085FF;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Nova Slim";
+    padding: 10px;
+    text-decoration-line: none;
+    position:relative;
+  }
+  
+  .Menu-item:hover {
+    color: #61dafb;
+  }
+
+  .Menu-item::before {
+    content: '';
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    left: 15px;
+    right: 100%;
+    transition: .4s ease-in;
+    transition-property: right, left, background-color;
+    background: rgb(2,0,36);
+    background-image:linear-gradient(90deg, rgb(211 90 241) 30%, rgba(0,212,255,1) 100%);
+  }
+  
+  
+  .Menu-item:hover::before {
+    background-color: #61dafb;
+    right: 15px;  
+  }
+
+  /* responsive media queries */
+
+  /* tablets and up */
+@media only screen and (min-width:640px) {
+  .App-header {
+    flex-direction: row;
+  }
+
+  .App-logo {
+    align-items: flex-start;
+  }
+
+  .Menu-item {
+    padding: 15px;
+  }
+
+}

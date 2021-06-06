@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Main-container {
+  background-color: #fafafa;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+
+.Motion-text {
+  padding: 20px 52px;
+}
+
+.Motion-paragraph { 
+  color: #6A6868;
+  font-size: 17px;
+
+}
+.Slogan {
+  display: block;
+  color: #5f0d58;
+  font-family: Saira Condensed;
+  font-size: 30px;
+  font-size: calc(45px + 2vmin);
+}
+
+.Slogan-paragraph {
+  display: block;
+  font-family: Nova Slim;
+  font-size: 20px;
+  color: #6A6868;
+  margin-top: 8px;
+}
+
+.char1,
+.char2,
+.char3,
+.char4,
+.char5,
+.char6,
+.char7,
+.char8,
+.char9,
+.char10,
+.char11,
+.char12,
+.char13 {
+  stroke:#61dafb;
+  fill: none;
+  stroke-width:7.5;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+}
+
+.char2 {
+  animation-delay: 1s;
+}
+.char3 {
+  animation-delay: 1.5s;
+}
+.char4 {
+  animation-delay: 2s;
+}
+.char5 {
+  animation-delay: 2.5s;
+}
+.char6 {
+  animation-delay: 3s;
+}
+.char7 {
+  animation-delay: 3.5s;
+}
+.char8 {
+  animation-delay: 4s;
+}
+.char9 {
+  animation-delay: 4.5s;
+}
+.char10 {
+  animation-delay: 5s;
+}
+.char11 {
+  animation-delay: 5.5s;
+}
+.char12 {
+  animation-delay: 6s;
+}
+.char13 {
+  animation-delay: 6.5s;
+}
+
+@keyframes dash {
+ to {
+   stroke-dashoffset: 0;
+ }
+}
+
+
+
+/* responsive media queries */
+
+/* tablets and up */
+@media only screen and (min-width:640px) {
+  .Motion-text {
+    padding: 20px 100px;
+  }
+
+  .Slogan {
+    margin-right: auto;    
+    text-align: left;
+  }
+
+  .Slogan-paragraph, .Motion-paragraph { 
+    margin-left: 50%;
+    text-align: justify;
+  }
+}
