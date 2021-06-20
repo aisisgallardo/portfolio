@@ -1,15 +1,14 @@
-.Banner-left {
-    display: flex;
-    justify-content:center;
-    align-items:center;
+.center-align {
+    align-items: center;
+}
+.position {
+    position: relative;
 }
 
-
-.about-container {
+.row {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
 }
 
 
@@ -70,7 +69,6 @@
     font-family: "Nova Slim";
     font-weight: 500;
     color: #5a7ebf;
-
     margin-left: 5px;
     text-align: left;
 }
@@ -88,7 +86,6 @@
 
 
 
-
 .a-link {
     text-decoration: none;
     display: flex;
@@ -96,7 +93,7 @@
 }
 
 
-.about-horizontalcontainer {
+.horizontal-containergrey {
     background-color: #fafafa;
     border-top: 1px solid #eaeaea;
     min-height: 30vh;
@@ -104,36 +101,82 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
-    
   }
   
 
 .horizontal-firstcolumn {
     /*padding: 5% 30px 3px;*/
-    border-radius: 8px 8px 0 0;
     box-sizing: content-box;
     border-left: 1px solid #e9e9e9;
+    border-radius: 8px 8px 0 0;
     width: 400px;
-    
+    /*display: flex;
+    align-items:flex-end;*/
 }
 
-.horizotal-title {
-    /*font-family: Saira Condensed;*/
+
+.horizontal-title {
+    font-family: Saira Condensed;
     font-size: xx-large;
-    background-color: #ec2178;
-    color: transparent!important;
-    background-color: linear-gradient(150deg,#2f3b8a 0,#60165e 20%,#de2867 70%,#f4d000 100%);
+    color: #ec2178;
+    color: linear-gradient(150deg,#2f3b8a 0,#60165e 20%,#de2867 70%,#f4d000 100%);
 
 }
 
 .horizontal-paragraph {
-
-    /*font-size: small;*/
+    padding: 5px;
+    margin: 10px;
+    color: #696969;
 }
 
 .img-icon {
     margin-right: 10px;
 }
+
+
+
+.scroll-top {
+    transition: all 1s ease-in-out;
+    opacity: 0;
+    display: flow-root;
+}
+
+.delay {
+    transition-delay: 1s;
+}
+
+
+.scroll-final {
+    opacity: 1;
+    transform: translate(0,-60px);
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-around;
+    
+    /*flex-direction: row;*/
+}
+
+.container-scroll {
+
+    position: relative;
+    height: 60vh;
+    top:70px;
+    
+    width: 500px;
+    text-align: -webkit-center;
+    
+}
+.delay-Y {
+    transition: all 2s ease-in-out;
+}
+.delay-Yx {
+    transition-delay: 1.9s;
+}
+
+
+
 
 /* responsive media queries */
 

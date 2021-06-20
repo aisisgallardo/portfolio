@@ -1,11 +1,14 @@
 import React from 'react';
 import Buton from './Buton.css';
-import AboutContent from './AboutContent';
+import PresentationAbout from './PresentationAbout';
+import PresentationDetail from './PresentationDetail';
 import {useInView} from 'react-intersection-observer';
 import img from '../images/icon-mail.png';
 import img1 from '../images/icon-in.png';
 import img2 from '../images/icon-git.png';
 import ContactLink from './ContactLinks';
+import AboutDetail from './AboutDetail';
+
 
 
 const About = () => {
@@ -17,63 +20,50 @@ const About = () => {
 
 return( 
     <React.Fragment>
-    <main ref={ref}  className="about-container">
+    <main ref={ref}  className="row center-align">
         <div className="container-directionright">
-            <div className={`content-rigth ${inView?'effect-right':''}` }>
-                <AboutContent />
-            </div>                
-        
+            <PresentationAbout inView={inView} />
         </div>
         <div className="container-directionleft">
             <div className={`content-left ${inView?'effect-left':''}` }>
-                <div className="title-right">Salut!</div>
-                <p className="paragraph-right">Je suis une passionate about interactive media, and in an age of digital I believe bringing design to life with code is essential. So, I specialise in a multi-disciplined approach to my work incorporating design and development.</p>
+                <PresentationDetail />
             </div>
         </div>
     </main>
 
     
-    <div className="about-horizontalcontainer">
+    <div className="horizontal-containergrey">
         <div className="horizontal-firstcolumn">
             <div className="horizontal-title">
-                <ContactLink link="mailto:aisisgallardo@gmail.com"  img={img}  label="aisisgallardo@gmail.com"/>
+                <ContactLink link="mailto:aisisgallardo@gmail.com"  img={img}  customClass="special-border" >
+                    aisisgallardo@gmail.com
+                </ContactLink>
             </div>
         </div>
         <div className="horizontal-firstcolumn">
             <div className="horizontal-title">
-                <ContactLink link="https://www.linkedin.com/in/alondra-gallardo/"  img={img1}  label="Linkedin ˇ "/>
+                <ContactLink link="https://www.linkedin.com/in/alondra-gallardo/"  img={img1} label=" ˇ" >
+                    Linkedin 
+                </ContactLink>
+                
             </div>
         </div>
 
         <div className="horizontal-firstcolumn">
             <div className="horizontal-title">
-                <ContactLink link="https://github.com/aisisgallardo"  img={img2}  label="GitHub ˇ "/>
-
+                <ContactLink link="https://github.com/aisisgallardo"  img={img2}  >
+                    GitHub ˇ 
+                </ContactLink>
+            
             </div>
         </div>
     </div>
 
 
     
+    <AboutDetail />
 
-    <div className="about-horizontalcontainer">
-        <div className="horizontal-firstcolumn">
-            <div className="horizontal-title">
-                Hello
-            </div>
-                <p className="horizontal-paragraph">I am passionate about interactive media, and in an age of digital I believe bringing design to life with code is essential. So, I specialise in a multi-disciplined approach to my work incorporating design and development.</p>
-
-        </div>
-        <div className="horizontal-firstcolumn">
-            <div className="horizontal-title">
-                Salut
-            </div>
-            <p className="horizontal-paragraph">Je suis une passionate about interactive media, and in an age of digital I believe bringing design to life with code is essential. So, I specialise in a multi-disciplined approach to my work incorporating design and development.</p>
-        </div>
-    </div>
-
-
-   <div className="about-container" >
+   <div className="horizontal-containergrey" >
         <div className="title-right">
              Iniciativo
         </div>
