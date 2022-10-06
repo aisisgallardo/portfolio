@@ -8,7 +8,7 @@ import './components/Menu.css';
 import About from './components/About';
 import './components/Buton.css';
 import './components/About.css';
-
+import Skills from  './components/Skills';
 
 function App() {
   return (
@@ -19,7 +19,8 @@ function App() {
       </header>
 
       <div>
-          <About/>
+          {/* <About/> */}
+          <Skills />
       </div>
 
 
