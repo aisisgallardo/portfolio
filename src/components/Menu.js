@@ -4,19 +4,19 @@ import MenuItem from './MenuItem';
 const Menu = function (props) {
   return(
     <div className="Menu-container">
-      <MenuItem link = "temporal text" >
+      <MenuItem link = "/" >
         Home
       </MenuItem>
-      <MenuItem link = "temporal text" >
+      <MenuItem link = "/about" >
         About
       </MenuItem>
-      <MenuItem link = "temporal text" >
+      <MenuItem link = "/work" >
         Work
       </MenuItem>
-      <MenuItem link = "temporal text" >
+      <MenuItem link = "/skills" >
         Skills
       </MenuItem>
-      <MenuItem link = "temporal text" >
+      <MenuItem link = "/keepintouch" >
         Keep in Touch
       </MenuItem>
 

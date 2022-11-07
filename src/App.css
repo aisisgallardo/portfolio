@@ -31,7 +31,7 @@
   font-size: calc(45px + 2vmin);
 }
 
-.Slogan-paragraph {
+.highlight-text {
   display: block;
   font-family: Nova Slim;
   font-size: 20px;
@@ -122,7 +122,8 @@
     text-align: left;
   }
 
-  .Slogan-paragraph, .Motion-paragraph { 
+  .Slogan-paragraph,
+  .Motion-paragraph { 
     margin-left: 50%;
     text-align: justify;
   }

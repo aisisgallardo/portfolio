@@ -8,7 +8,9 @@ import './components/Menu.css';
 import About from './components/About';
 import './components/Buton.css';
 import './components/About.css';
-
+import Work from './components/Work';
+import './components/Work.css';
+import {Outlet} from 'react-router-dom';
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
       </header>
 
       <div>
-          <About/>
+        {/*<About/> */}        
+        {  /*<Home /> */}
+        <Outlet />
       </div>
 
 

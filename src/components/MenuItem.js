@@ -1,16 +1,17 @@
 import React from 'react';
-import Menu from './Menu';
+import Menu from './Menu'
+import {Link} from 'react-router-dom';
 
 const MenuItem = function (props) {
     return(
-    <a
+    <Link
         className="Menu-item"
-        href={props.link}
-        target="_self"
+        to={props.link}
+        
         rel="noopener noreferrer"
     >
         {props.children}
-    </a>
+    </Link>
 
 
     )
