@@ -7,6 +7,7 @@ import {createBrowserRouter,RouterProvider} from 'react-router-dom';
 import Work from './components/Work';
 import Home from './components/Home';
 import About from './components/About';
+import { loaderWorkDetail, WorkDetail } from './components/WorkDetail';
 
 const myRouter = createBrowserRouter ([
   {
@@ -16,6 +17,12 @@ const myRouter = createBrowserRouter ([
       {
         path:"work",
         element:<Work />,
+        
+      },
+      {
+        path:"work/:slug",
+        element:<WorkDetail />,
+        loader:loaderWorkDetail,
       },
       {
         path:"",

@@ -1,3 +1,8 @@
+:root {
+    --angle: -11deg;
+    --angleleft: 11deg
+}
+
 .border-container {
     /*
     border-radius:4px;
@@ -14,15 +19,23 @@
     grid-template-rows: 1fr;
     gap: 25px;
     align-items: start;
+}
 
+.diagonal-left {    
+    transform: skewY(var(--angleleft));
+}
+.work-image-left {
+    padding: 50px 0;    
+	transform: skewY(calc(var(--angleleft)*-1));
 }
 
 
+.workgrid_item-a {
+    grid-column: span 2;
+    grid-row:1
+}
 
-.item-1 {    
-    
-    border-radius:4px;
-    border:1px solid #bbb;
+.green {
     background-color: rgb(168, 235, 18);
     color: #693a7d;
     text-align: center;
@@ -32,21 +45,19 @@
     letter-spacing: 0.094em;
 }
 
-
-.workgrid_item-a {
-    grid-column: span 2;
-    grid-row:1
-}
-
-.item-2 {
+.aqua {
     color:#fff;
     background-color: #00c9b7;
-    border-radius: 5px;
-
-    grid-row: 1/2;
+    border-radius: 5px;    /*grid-row: 1/2;*/
 }
 
-.item-3 {
+
+.diagonal-right {
+    transform: skewY(var(--angle));
+}
+.work-image-right {
+    padding: 50px 0;    
+	transform: skewY(calc(var(--angle)*-1));
 }
 
 .img-card {
@@ -56,29 +67,19 @@
     border-radius: 10px;
 }
 
-.green {
+.pink {
     background: #56B870; 
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.blue {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
 .red {
     background: #C655BE;
     background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); 
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); 
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-
 }
 
 
-
-.yellow{
-    background: #F3AAAA;
-    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%);
-    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); 
-}
-
-.purple {
-    background: #A88BEB;
-    background: -webkit-linear-gradient(top, #A88BEB 0%,#F1A7F1 44%,#F8CEEC 100%); 
-    background: -ms-linear-gradient(top, #A88BEB 0%,#F1A7F1 44%,#F8CEEC 100%);
-}

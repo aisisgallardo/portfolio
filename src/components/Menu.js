@@ -1,5 +1,7 @@
 import React from 'react';
 import MenuItem from './MenuItem';
+import './Menu.css';
+
 
 const Menu = function (props) {
   return(

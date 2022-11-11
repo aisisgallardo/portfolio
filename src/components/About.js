@@ -1,5 +1,6 @@
 import React from 'react';
 import Buton from './Buton.css';
+import './About.css';
 import PresentationAbout from './PresentationAbout';
 import PresentationDetail from './PresentationDetail';
 import {useInView} from 'react-intersection-observer';
