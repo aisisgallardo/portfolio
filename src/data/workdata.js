@@ -4,7 +4,7 @@ export function getWorkData () {
         {
             image:"/images/apisandi.webp",
             title : "Miel Apisandi",
-            cssClass : "diagonal-left green",
+            cssClass : "diagonal-left blue",
             slug:"miel-apisandi",
             detail:"Website build with joomla for a honey factory in Mexico",
             thumbs: [                
@@ -19,7 +19,7 @@ export function getWorkData () {
         {
             image:"/images/hoho.webp",
             title : "HoHo Collection",
-            cssClass : "aqua",
+            cssClass : "blue",
             slug:"hoho-collection",
             detail:"Fashion Store Website for a local producer on Guerrero province with ecommerce",
             thumbs: [
@@ -43,31 +43,30 @@ export function getWorkData () {
         {
             image:"/images/lapaz.webp",
             title : "Cementerios La Paz",
-            cssClass : "diagonal-left",
+            cssClass : "diagonal-left aqua",
             slug:"cementerios-la-paz",
             detail:"Website for a local producer on Guerrero province with ecommerce",
             thumbs: [
                 "lapaz.webp",
                 "lapaz_store.webp",
             ]
-        },
+        },        
         {
-            image:"/images/severianos.webp",
-            title : "Adobo Severianos",
+            image:"/images/bienatura.webp",
+            title : "Bienatura",
             cssClass : "aqua",
-            slug:"severianos",
+            slug:"bienatura",
             detail:"Website ",
             thumbs: [
-                "severianos.webp",
-                "severianos_heroe.webp",
-                "severianos_menu.webp",
-                "severianos_store.webp",
+                "cafe_oro.webp",
+                "cafe_oro_tip.webp",                
+                "cafe_store.webp",
             ]
         },
         {
             image:"/images/dartesanos.webp",
             title : "D'asrtesanos 360",
-            cssClass : "diagonal-right",
+            cssClass : "diagonal-right aqua",
             slug:"dartesanos",
             detail:"Website ",
             thumbs: [
@@ -78,9 +77,21 @@ export function getWorkData () {
             ]
         },
         {
+            image:"/images/cafe_oro.webp",
+            title : "Cafe Oro Paraiso",
+            cssClass : "diagonal-left red",
+            slug:"cafe-oro",
+            detail:"Website ",
+            thumbs: [
+                "cafe_oro.webp",
+                "cafe_oro_tip.webp",                
+                "cafe_store.webp",
+            ]
+        },        
+        {
             image:"/images/valle_rojo.webp",
             title : "Valle Rojo",
-            cssClass : "diagonal-left pink",
+            cssClass : "pink",
             slug:"valle-rojo",
             detail:"Website ",
             thumbs: [
@@ -89,29 +100,19 @@ export function getWorkData () {
             ]
         },
         {
-            image:"/images/cafe_oro.webp",
-            title : "Cafe Oro Paraiso",
-            cssClass : "item-8 red",
-            slug:"cafe-oro",
+            image:"/images/severianos.webp",
+            title : "Adobo Severianos",
+            cssClass : "diagonal-right red",
+            slug:"severianos",
             detail:"Website ",
             thumbs: [
-                "cafe_oro.webp",
-                "cafe_oro_tip.webp",                
-                "cafe_store.webp",
+                "severianos.webp",
+                "severianos_heroe.webp",
+                "severianos_menu.webp",
+                "severianos_store.webp",
             ]
         },
-        {
-            image:"/images/bienatura.webp",
-            title : "Bienatura",
-            cssClass : "item-8 red",
-            slug:"bienatura",
-            detail:"Website ",
-            thumbs: [
-                "cafe_oro.webp",
-                "cafe_oro_tip.webp",                
-                "cafe_store.webp",
-            ]
-        },
+
 
 
     ]
