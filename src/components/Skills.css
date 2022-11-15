@@ -1,0 +1,34 @@
+.skills__list {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.skills__card {
+    width: 100%;
+    padding: 2.25rem 2.25rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills_thumb {
+    max-height: 9rem;
+    width: auto;
+    margin-bottom: 1rem;
+}
+
+/* tablets */
+@media (min-width:640px) {
+    .skills__card {
+        width: 33.33%;
+    }
+}
+
+
+/* laptop and above */
+@media (min-width:1024px) {
+    .skills__card {
+        width: 25%;
+    }
+}
