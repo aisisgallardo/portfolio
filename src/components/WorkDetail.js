@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { getWorkData } from '../data/workdata';
+import  './WorkDetail.css';
 
 export const loaderWorkDetail = ({params}) => {
     console.log(params);
@@ -19,16 +20,26 @@ export const WorkDetail = () =>{
 
     return (
         <div>
-            <h1>title</h1>
-            <img src={page.image} />
+            <section className='detail'>
+                <img className='detail__hero' src={page.image} />
+                <div className='detail__description'>
+                    <h1>{page.title}</h1>
+                    
+                    <span className='detail__text'>{page.detail}</span>
+                </div>
+            </section>
+           <h2>Showroom</h2>
+           <section className='thumbs'>
             {page.thumbs.map((thumb,index)=>{
-                 return (
-                    <>
-                        <span>{thumb}</span>
-                        <img src={"/images/"+thumb} alt="" />
-                    </>
-                 )
-            })}
+                    return (
+                        
+                            
+                            <img src={"/images/"+thumb} alt={page.title + " site thumb"} />
+                        
+                    )
+                })}
+            </section> 
+           
         </div>
     )
 }
