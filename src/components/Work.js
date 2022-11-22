@@ -42,14 +42,14 @@ import { Link } from 'react-router-dom';
 
 const Work = () =>  {
     return (
-        <div className="border-container highlight-text">Hello 
+        <div className="border-container highlight-text">  Hello
             <div className="container">
                 {
                     getWorkData().map((item,index)=>{
-                        const resto  = (index % 3);
+                        const quotient  = Math.floor(index / 3);
 
-                         let nameclassContainer;
-                        switch (resto){
+                        let nameclassContainer;
+                        switch (quotient){
                             case 0:
                                 nameclassContainer = "work-image-left";
                                 break;
@@ -62,10 +62,10 @@ const Work = () =>  {
 
                         }
                         return (
-                            <Link to={item.slug} className={item.cssClass}>
+                            <Link to={item.slug} className={"brick " + item.cssClass}>
                                 <div className={nameclassContainer}>
                                     <img src={item.image} className="img-card" alt=""/>
-                                    {item.title}
+                                    {item.title + " " + (index+1)}
                                 </div>
                             </Link>
                         )
