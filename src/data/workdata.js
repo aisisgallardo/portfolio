@@ -21,7 +21,7 @@ export function getWorkData () {
             title : "Cementerios La Paz",
             cssClass : "diagonal-left grey brick line-break",
             slug:"cementerios-la-paz",
-            detail:"Website for a local producer on Guerrero province with ecommerce",
+            detail:"Funeral Services Company website featuring a virtual tour and a ecommerce section build on prestashop",
             thumbs: [
                 "lapaz.webp",
                 "lapaz_store.webp",
@@ -32,7 +32,7 @@ export function getWorkData () {
             title : "Adobo Severianos",
             cssClass : "diagonal-left orange line-break",
             slug:"severianos",
-            detail:"Website ",
+            detail:"Site for a restaurant with a dedicated ecommerce section for its special sauce!! ",
             thumbs: [
                 "severianos.webp",
                 "severianos_heroe.webp",
@@ -58,7 +58,7 @@ export function getWorkData () {
             title : "D'asrtesanos 360",
             cssClass : "grey brick",
             slug:"dartesanos",
-            detail:"Website ",
+            detail:"Site made for a silver craftmanship business",
             thumbs: [
                 "dartesanos_blog.webp",
                 "dartesanos_contac.webp",
@@ -71,7 +71,7 @@ export function getWorkData () {
             title : "Bienatura",
             cssClass : "grey brick",
             slug:"bienatura",
-            detail:"Website ",
+            detail:"Website for a self care organic products company with ecommerce functionality ",
             thumbs: [
                 "bienatura.webp",
                 "bienatura_datasheet.webp",                
@@ -95,7 +95,7 @@ export function getWorkData () {
             title : "Valle Rojo",
             cssClass : "diagonal-right grey",
             slug:"valle-rojo",
-            detail:"Website ",
+            detail:"Website of a roselle flower base products producer featuring ecommerce functionality and localization",
             thumbs: [
                 "valle_rojo.webp",
                 "valle_rojo_store.webp",
