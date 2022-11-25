@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.828f1fee.css",
+    "main.js": "/portfolio/static/js/main.d0238d2a.js",
+    "static/js/787.939aebc1.chunk.js": "/portfolio/static/js/787.939aebc1.chunk.js",
+    "static/media/cv-gavi.gif": "/portfolio/static/media/cv-gavi.45b23138cab79b794f88.gif",
+    "static/media/severianos.webp": "/portfolio/static/media/severianos.0d2244393dfe1f2298dc.webp",
+    "static/media/dartesanos.webp": "/portfolio/static/media/dartesanos.96ae81fa4eda0b34ee83.webp",
+    "static/media/hoho.webp": "/portfolio/static/media/hoho.48e35e01c8d10960f436.webp",
+    "static/media/severianos_heroe.webp": "/portfolio/static/media/severianos_heroe.6897b188c7ecd1cb6e14.webp",
+    "static/media/apisandi.webp": "/portfolio/static/media/apisandi.0874817769c757554837.webp",
+    "static/media/lapaz.webp": "/portfolio/static/media/lapaz.bcdc6bd4a47072343360.webp",
+    "static/media/apisandi_gourmet.webp": "/portfolio/static/media/apisandi_gourmet.fa676a34cf6b94e61f8c.webp",
+    "static/media/apisandi_products.webp": "/portfolio/static/media/apisandi_products.d41a5e8fa5e1426f19f0.webp",
+    "static/media/dartesanos_blog.webp": "/portfolio/static/media/dartesanos_blog.685506a9302e3161b070.webp",
+    "static/media/apisandi_products_zoom.webp": "/portfolio/static/media/apisandi_products_zoom.c20976306097bd216a56.webp",
+    "static/media/apisandi_products_withzoom.webp": "/portfolio/static/media/apisandi_products_withzoom.9ac62a834974addb6572.webp",
+    "static/media/dartesanos_catalog.webp": "/portfolio/static/media/dartesanos_catalog.5f419b2fdb8ea6480417.webp",
+    "static/media/apisandi_modal.webp": "/portfolio/static/media/apisandi_modal.5f9ee3c05845bd99b2e0.webp",
+    "static/media/apisandi_store.webp": "/portfolio/static/media/apisandi_store.93aa3417ce3fd3c357e2.webp",
+    "static/media/dartesanos_store.webp": "/portfolio/static/media/dartesanos_store.390aa07020e39391fd70.webp",
+    "static/media/severianos_menu.webp": "/portfolio/static/media/severianos_menu.1ebb3f841d6c876e75ac.webp",
+    "static/media/kkaw.webp": "/portfolio/static/media/kkaw.0f6d3ee99a396dae9610.webp",
+    "static/media/hoho_catalog.webp": "/portfolio/static/media/hoho_catalog.df5ef53e1c31fe3a8de1.webp",
+    "static/media/lapaz_store.webp": "/portfolio/static/media/lapaz_store.406953db2d1e8f471ed6.webp",
+    "static/media/kkaw_blog.webp": "/portfolio/static/media/kkaw_blog.4ef7ccc976e20bf832fd.webp",
+    "static/media/hoho_store.webp": "/portfolio/static/media/hoho_store.f9b5b3d8fff9c3a2c1e4.webp",
+    "static/media/hoho_homepage.webp": "/portfolio/static/media/hoho_homepage.8e9a1d3dce423c00da55.webp",
+    "static/media/dartesanos_contact.webp": "/portfolio/static/media/dartesanos_contact.216df9e9cb877f2821f5.webp",
+    "static/media/hoho_heroe.webp": "/portfolio/static/media/hoho_heroe.38e0cf6c0a6292c28272.webp",
+    "static/media/logo-name.svg": "/portfolio/static/media/logo-name.f3fa454094bbba582c05e7c15163f498.svg",
+    "index.html": "/portfolio/index.html",
+    "main.828f1fee.css.map": "/portfolio/static/css/main.828f1fee.css.map",
+    "main.d0238d2a.js.map": "/portfolio/static/js/main.d0238d2a.js.map",
+    "787.939aebc1.chunk.js.map": "/portfolio/static/js/787.939aebc1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.828f1fee.css",
+    "static/js/main.d0238d2a.js"
+  ]
+}
