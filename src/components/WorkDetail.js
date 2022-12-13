@@ -21,7 +21,7 @@ export const WorkDetail = () =>{
     return (
         <div>
             <section className='detail'>
-                <img className='detail__hero' src={page.image} />
+                <img className='detail__hero' src={"/portfolio/"+page.image} />
                 <div className='detail__description'>
                     <h1>{page.title}</h1>
                     
@@ -34,7 +34,7 @@ export const WorkDetail = () =>{
                     return (
                         
                             
-                            <img src={"/images/"+thumb} alt={page.title + " site thumb"} />
+                            <img src={"/portfolio/images/"+thumb} alt={page.title + " site thumb"} />
                         
                     )
                 })}

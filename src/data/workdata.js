@@ -4,7 +4,7 @@ export function getWorkData () {
         {
             image:"/images/apisandi.webp",
             title : "Miel Apisandi",
-            cssClass : "diagonal-left blue brick",
+            cssClass : "diagonal-left blue ",
             slug:"miel-apisandi",
             detail:"Website build with joomla for a honey factory in Mexico",
             thumbs: [                
@@ -19,7 +19,7 @@ export function getWorkData () {
         {
             image:"/images/lapaz.webp",
             title : "Cementerios La Paz",
-            cssClass : "diagonal-left grey brick line-break",
+            cssClass : "diagonal-left blue-royal line-break",
             slug:"cementerios-la-paz",
             detail:"Funeral Services Company website featuring a virtual tour and a ecommerce section build on prestashop",
             thumbs: [
@@ -43,7 +43,7 @@ export function getWorkData () {
         {
             image:"/images/hoho.webp",
             title : "HoHo Collection",
-            cssClass : "pink brick",
+            cssClass : "pink",
             slug:"hoho-collection",
             detail:"Fashion Store Website for a local producer on Guerrero province with ecommerce",
             thumbs: [
@@ -56,7 +56,7 @@ export function getWorkData () {
         {
             image:"/images/dartesanos.webp",
             title : "D'asrtesanos 360",
-            cssClass : "grey brick",
+            cssClass : "royal",
             slug:"dartesanos",
             detail:"Site made for a silver craftmanship business",
             thumbs: [
@@ -69,7 +69,7 @@ export function getWorkData () {
         {
             image:"/images/bienatura.webp",
             title : "Bienatura",
-            cssClass : "grey brick",
+            cssClass : "nature",
             slug:"bienatura",
             detail:"Website for a self care organic products company with ecommerce functionality ",
             thumbs: [
@@ -82,7 +82,7 @@ export function getWorkData () {
         {
             image:"/images/kkaw.webp",
             title : "Chocolate K'kaw",
-            cssClass : "diagonal-right blue brick",
+            cssClass : "diagonal-right blue",
             slug:"chocolate-kkaw",
             detail:"Website for a local producer on Guerrero province with ecommerce",
             thumbs: [
@@ -93,7 +93,7 @@ export function getWorkData () {
         {
             image:"/images/valle_rojo.webp",
             title : "Valle Rojo",
-            cssClass : "diagonal-right grey",
+            cssClass : "diagonal-right red-royal",
             slug:"valle-rojo",
             detail:"Website of a roselle flower base products producer featuring ecommerce functionality and localization",
             thumbs: [

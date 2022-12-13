@@ -8,6 +8,8 @@ import Work from './components/Work';
 import Home from './components/Home';
 import About from './components/About';
 import { loaderWorkDetail, WorkDetail } from './components/WorkDetail';
+import Skills from './components/Skills';
+
 
 const myRouter = createBrowserRouter ([
   {
@@ -32,10 +34,17 @@ const myRouter = createBrowserRouter ([
         path:"About",
         element:<About />,
       },
+      {
+        path:"Skills",
+        element:<Skills />,
+      },
+
     ]
     
   }
-])
+],{
+  basename:"/portfolio",
+})
 
 ReactDOM.render(
   <React.StrictMode>

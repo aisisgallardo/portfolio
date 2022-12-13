@@ -1,39 +1,6 @@
 import React from 'react';
 import './Work.css';
 
-import apisandi from "../images/apisandi.webp";
-import apisandi_store from "../images/apisandi_store.webp";
-import apisandi_gourmet from "../images/apisandi_gourmet.webp";
-
-import hoho from "../images/hoho.webp";
-import hoho_homepage from "../images/hoho_homepage.webp";
-import hoho_heroe from "../images/hoho_heroe.webp";
-import hoho_store from "../images/hoho_store.webp";
-import hoho_catalog from "../images/hoho_catalog.webp";
-
-
-import kkaw from "../images/kkaw.webp";
-import kkaw_blog from "../images/kkaw_blog.webp";
-
-
-import lapaz from "../images/lapaz.webp";
-import lapaz_store from "../images/lapaz_store.webp";
-
-import dartesanos from "../images/dartesanos.webp";
-import dartesanos_blog from "../images/dartesanos_blog.webp";
-import dartesanos_contact from "../images/dartesanos_contact.webp";
-import dartesanos_store from "../images/dartesanos_store.webp";
-import dartesanos_catalog from "../images/dartesanos_catalog.webp";
-
-
-import severianos_menu from "../images/severianos_menu.webp";
-import severianos_heroe from "../images/severianos_heroe.webp";
-import severianos  from "../images/severianos.webp";
-
-import apisandi1 from "../images/apisandi_products_zoom.webp";
-import apisandi2 from "../images/apisandi_products_withzoom.webp";
-import apisandi_products  from "../images/apisandi_products.webp";
-import apisandi_modal  from "../images/apisandi_modal.webp";
 import { getWorkData } from '../data/workdata';
 
 import { Link } from 'react-router-dom';
@@ -42,8 +9,9 @@ import { Link } from 'react-router-dom';
 
 const Work = () =>  {
     return (
-        <div className="border-container highlight-text">  Hello
-            <div className="container">
+        <div className="border-container ">
+            <p className='horizontal-title'> Projects</p>
+            <div className="container title-card">
                 {
                     getWorkData().map((item,index)=>{
                         const quotient  = Math.floor(index / 3);
@@ -54,7 +22,7 @@ const Work = () =>  {
                                 nameclassContainer = "work-image-left";
                                 break;
                             case 1:
-                                nameclassContainer = "";
+                                nameclassContainer = "line-break";
                                 break;
                             case 2:
                                 nameclassContainer = "work-image-right";
@@ -64,8 +32,8 @@ const Work = () =>  {
                         return (
                             <Link to={item.slug} className={"brick " + item.cssClass}>
                                 <div className={nameclassContainer}>
-                                    <img src={item.image} className="img-card" alt=""/>
-                                    {item.title + " " + (index+1)}
+                                    <img src={"/portfolio/" + item.image} className="img-card" alt=""/>
+                                    {item.title} {/* {item.title + " " + (index+1)}*/}
                                 </div>
                             </Link>
                         )

@@ -65,16 +65,15 @@ return(
     <AboutDetail />
 
    <div className="horizontal-containergrey" >
-        <div className="title-right">
-             Iniciativo
+        <div className="title-right line-break">
+            Ready for more...
         </div>
-        {/*<div className="gradient-border container-directionright" height="200px">
+        <div className="gradient-border container-directionright" height="200px">
             <a href="CV-EN.pdf" target="_blank" className={`a-download content-right ${inView?'effect-right':''}`}>
-                <div className="gradient-border__border" > ⥥ Download resume ⥥ ˇ</div>
+                <div className="gradient-border__border" > ⥥ Download resume ˇ</div>
             </a>   
         
         </div>
-        */}
         
     </div>
 
