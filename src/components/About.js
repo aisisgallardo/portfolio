@@ -69,7 +69,7 @@ return(
             Ready for more...
         </div>
         <div className="gradient-border container-directionright" height="200px">
-            <a href="CV-EN.pdf" target="_blank" className={`a-download content-right ${inView?'effect-right':''}`}>
+            <a href="AG-resume.pdf" target="_blank" className={`a-download content-right ${inView?'effect-right':''}`}>
                 <div className="gradient-border__border" > ⥥ Download resume ˇ</div>
             </a>   
         
