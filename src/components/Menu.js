@@ -18,9 +18,7 @@ const Menu = function (props) {
       <MenuItem link = "/skills" >
         Skills
       </MenuItem>
-      <MenuItem link = "/keepintouch" >
-        Keep in Touch
-      </MenuItem>
+      
 
 
     </div>
